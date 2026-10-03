@@ -1,0 +1,28 @@
+# Raw and processed data
+data/
+
+# Archived files
+archive/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Intermediate and participant-level datasets
+outputs/Final_edited.csv
+outputs/NHANES_Cleaned_Adults.csv
+notebooks/NHANES_Combined.csv
+
+# Old working notebook versions
+notebooks/4_classification_modelling1.ipynb
+notebooks/Notebook_5-Copy1.ipynb
+
+# Duplicate working output files
+notebooks/classification_model_comparison.csv
+notebooks/classification_tuning_comparison.csv

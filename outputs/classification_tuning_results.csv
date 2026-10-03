@@ -1,0 +1,5 @@
+Model,Best CV ROC-AUC,Selected Parameters
+Gradient Boosting,0.863882633580788,"{'classifier__n_estimators': 200, 'classifier__min_samples_split': 5, 'classifier__min_samples_leaf': 2, 'classifier__max_depth': 2, 'classifier__learning_rate': 0.1}"
+Random Forest,0.8620422329431268,"{'classifier__n_estimators': 500, 'classifier__min_samples_split': 2, 'classifier__min_samples_leaf': 4, 'classifier__max_features': 'sqrt', 'classifier__max_depth': 30}"
+Logistic Regression,0.8585525353001927,{'classifier__C': 0.1}
+SVM,0.8569364483773773,"{'classifier__gamma': 0.01, 'classifier__C': 0.5}"
